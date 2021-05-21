@@ -120,6 +120,6 @@ while True:
         break
 
 if exec_ == 'S' or exec_ == 's':
-        os.system('python3 ' + __file__)
+    os.system('python3 ' + __file__)
 else:
-        print('Bye!')
+    print('Bye!')
