@@ -103,4 +103,21 @@ while True:
         break
 
 valorf = unitconv(opcion)
-print(f"\nEl valor final es: {valorf}")
+print(f"\nEl valor final es: {valorf}\n")
+
+while True:
+    try:
+        exec_ = input('¿Quiere continuar? S/n ~ ')
+    except ValueError:
+        print('Deben ser carácteres')
+        continue
+    if exec_ == '':
+        print('Inserte algo')
+        continue
+    else:
+        break
+
+if exec_ == 'S' or exec_ == 's':
+        os.system('python3 ' + __file__)
+else:
+        print('Bye!')
