@@ -98,7 +98,7 @@ while True:
 
 while True:
     try:
-        valor = int(input('\nInserte el valor a convertir, sin indicar unidades: '))
+        valor = float(input('\nInserte el valor a convertir, sin indicar unidades: '))
     except ValueError:
         print('Dede ser entero o decimal, no indique unidades')
     else:
